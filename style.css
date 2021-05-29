@@ -1,0 +1,299 @@
+@import './grid.css';
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(./font/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: Poppins-SemiBold;
+    src: url(./font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: poppins-medium;
+    src: url(./font/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: poppins-regular;
+    src: url(./font/Poppins-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    direction: ltr;
+    font-size: 16px;
+    font-family: poppins-regular;
+}
+
+/* start */
+nav {
+    margin-top: 50px;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: #0C2785;
+    font-size: 28px;
+    font-family: poppins-bold;
+}
+
+nav .menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    padding: 5px;
+    text-decoration: none;
+    color: #2B2A2A;
+    font-family: poppins-medium;
+}
+
+.login {
+    width: 137px;
+    height: 51px;
+    border-radius: 4px;
+    background-color: #0C2785;
+}
+
+.login a {
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    margin-top: 140px;
+}
+
+.title h3 {
+    font-size: 60px;
+    font-family: poppins-bold;
+    color: #2B2A2A;
+}
+
+.title h5 {
+    font-size: 24px;
+    font-family: poppins-medium;
+    color: #2B2A2A;
+}
+
+.title p {
+    margin-top: 25px;
+    line-height: 25px;
+    color: #2B2A2A;
+}
+
+.slide {
+    width: 100%;
+    height: 344px;
+    background: #0C2785;
+    border-radius: 80px 0 80px 0;
+}
+
+#services .title {
+    margin-top: 40px;
+}
+
+#services .title h5 {
+    font-size: 32px;
+    font-family: poppins-bold;
+}
+
+#services .title .divider {
+    border: 2px solid #0C2785;
+    width: 100px;
+    margin-top: 15px;
+    margin: auto;
+}
+
+#services .text-Content p {
+    line-height: 28px;
+    margin-top: 30px;
+}
+
+.card {
+    padding: 0 25px;
+    border-radius: 8px;
+}
+
+.card .card-header img {
+    margin-top: 32px;
+}
+
+.card .card-body h4 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: poppins-bold;
+}
+
+.card .card-body p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+#services #child-3 .card {
+    background-color: #0C2785;
+    color: white;
+}
+
+section#About {
+    margin-top: 120px;
+}
+
+.box-about {
+    border-radius: 4px;
+    padding: 0 15px;
+}
+.box-about#react {
+    background: #0C2785;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.title-about h3{
+    font-size: 32px;
+    font-family: poppins-bold;
+}
+.title-about .divider{
+    margin-top: 15px;
+    border: 2px solid #0C2785;
+    width: 100px;
+}
+.text-about p{
+    line-height:28px;
+    margin-top: 30px;
+}
+.action-about{
+    margin-top: 40px;
+}
+.btn1,.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action-about a{
+    text-decoration: none;
+}
+.btn-1{
+    border: 2px solid #0C2785;
+    border-radius: 4px;
+}
+.btn-1 a{
+    text-decoration: none;
+    color: #0C2785;
+    padding: 10px 25px;
+}
+.btn-2{
+    background-color: #0C2785;
+    border-radius: 4px;
+}
+.btn-2 a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+}
+section#counter{
+    background: #0C2785;
+    color: white;
+    margin-top: 250px;
+}
+.box-counter{
+    margin: 100px auto;
+}
+.box-counter #number{
+    font-family: Poppins-SemiBold;
+    font-size: 32px;
+}
+.box-counter #info{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#Course{
+    margin-top:197px;
+}
+#Course .title h5{
+    font-family: poppins-bold;
+    font-size: 32px;
+}
+#Course .title .divider{
+    margin-top:15px;
+    border: 2px solid #0C2785;
+    width: 100px;
+}
+#Course .card-course{
+    border-radius: 4px;
+    border: 1px solid rgba(112,112,112,15%);
+}
+.course-header{
+    border-radius: 4px;
+    background-color: #457AAE;
+    height: 265px;
+    position: relative;
+}
+.course-header span{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.course-header span{
+    padding: 5px 10px;
+    background: rgba(12,19,133,30%);
+    color: white;
+    border-radius: 2px;
+}
+.course-body{
+    padding:20px;
+}
+.course-body .date{
+    color:#707070;
+    font-size: 14px;
+    font-family: poppins-medium;
+}
+.course-body .title{
+    color: #2B2A2A;
+    font-size: 20px;
+    font-family: Poppins-SemiBold;
+}
+.course-body p{
+    margin-bottom: 20px;
+}
+/* styling course card :nth-child() */
+
+#react{background: #457AAE;}
+#angular{background: #EB8585;}
+#python{background: #57ADC4;}
+#vscode{background: #5F83A7;}
+#git{background: #6D6D6D;}
+#django{background: #0F5331;}
+/* end styling */
+#Features{
+    margin-top: 160px;
+}
+.box-Features{
+    margin-top: 60px;
+}
+#Features .title-template h4{
+    font-size: 32px;
+    font-family: poppins-bold;
+}
+#Features .title-template .divider{
+    width: 100px;
+    border: 2px solid #0C2785;
+    margin-top: 15px;
+}
+#Features .content h6{
+    font-size: 20px;
+    font-family: poppins-medium;
+}
+footer .copy-righting{
+    margin-top: 100px;
+}
